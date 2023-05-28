@@ -1,0 +1,418 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20px;
+
+}
+
+header {
+    width: 1900px;
+    height: 1500px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary {
+    background-color: rgb(241, 159, 6);
+    width: 180px;
+    height: 64px;
+    border-style: none;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    color: aliceblue;
+    font-size: large;
+}
+
+.nav-title {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+
+.nav-title h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+ul {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* banner side */
+.banner {
+    text-align: center;
+}
+
+.banner-img {
+    text-align: center;
+}
+
+.image-container {
+    max-width: 93%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.head-text {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.dis-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* main section features part */
+main {
+    width: 1400px;
+
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    height: 800px;
+}
+
+.imag {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.imag {
+    max-width: 100%;
+    height: auto;
+}
+
+.imag img {
+    width: 100%;
+    height: auto;
+}
+
+.main-text {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.qu {
+    color: #727272;
+}
+
+.of {
+    color: #131313;
+}
+
+.feature {
+    color: #FF900E;
+}
+
+.main-second {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* main discription */
+.distription {
+    width: 1400px;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 29px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.dis-title {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+.dis-title{
+    max-width: 100%;
+    height: auto;
+}
+.dis-title .div-text{
+    width: 100%;
+    height: auto;
+}
+.dis-image{
+    max-width: 100%;
+    height: auto;
+}
+.dis-image img{
+    width: 100%;
+    height: auto;
+}
+.div-text {
+    background-color: azure;
+}
+
+.dis-dis {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.dis-p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn-experience {
+    width: 250px;
+    height: 150px;
+    background-color: #FF900E;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.text-btn {
+    font-size: 30px;
+    font-weight: 200px;
+}
+
+/* main facts section */
+.facts {
+    width: 1600px;
+    height: 500px;
+    margin-top: 60px;
+}
+
+.fact-text {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 100px;
+
+}
+
+.fact-dis {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 542px;
+    margin-left: 100px;
+}
+
+.fact-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 70px;
+    margin-left: 130px;
+    justify-content: center;
+}
+
+.fact-box {
+    width: 200px;
+    height: 180px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px;
+    align-items: center;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+
+}
+
+.fact-disc {
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
+
+}
+
+/* sponsor text */
+.sponsors {
+    width: 1600px;
+}
+
+.sponsor-text {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.spon {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.spont {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 40px;
+}
+
+.sponsor {
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    
+    width: 1600px;
+    height: 80px;
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    background: rgba(255, 144, 14, 0.1);
+    text-align: center;
+    margin-left: 140px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* media qurraey */
+@media only screen and (max-width: 540px) {
+    * {
+        margin-left: 0px;
+    }
+
+    /* header */
+    header {
+        width: 540px;
+        height: 100%;
+    }
+
+    .nav-title {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        margin-left: 10px;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .banner {
+        width: 540px;
+    }
+
+    ul {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        margin-left: 10px;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .banner-img {
+        text-align: start;
+    }
+
+    .image-container img {
+        max-width: 530px;
+        margin-left: 5px;
+    }
+
+    /* main features sections */
+    .features {
+        width: 540px;
+        height: 100%;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        margin-left: 0px;
+    }
+
+    .imag {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        gap: 0px;
+    }
+
+    .imag img {
+        max-width: 540px;
+    }
+
+    /* main discription sections */
+    .distription{
+        width: 540px;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0px;
+        gap: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .dis-title .div-text{
+        width: 540px;
+    }
+    .dis-image img{
+        width: 540px;
+    }
+    .btn-experience{
+        margin-left: 120px;
+    }
+    /* main facts */
+    .facts{
+        width: 540px;
+        height: 100%;
+        margin-top: 0px;
+    }
+    .fact-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
+        margin-left: 120px;
+    }
+    .fact-text{
+        margin-left: 20px;
+    }
+    .fact-dis{
+        margin-left: 20px;
+    }
+    /* main sponsors */
+    .sponsors{
+        width: 540px;
+        height: 100%;
+    }
+    .sponsor{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        width: 540px;
+    }
+    .sponsor-text{
+        width: 540px;
+    }
+    footer{
+        width: 540px;
+        margin-left: 0px;
+
+    }
+}
